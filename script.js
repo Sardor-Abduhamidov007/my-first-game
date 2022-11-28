@@ -4,7 +4,8 @@ function myFunction() {
   if (answer1 == "ha") {
     let yourName = prompt("Ismingizni kiriting");
     console.log(yourName);
-    let yourName2 = yourName.charAt(0).toUpperCase() + yourName.toLowerCase().slice(1);
+    let yourName2 =
+      yourName.charAt(0).toUpperCase() + yourName.toLowerCase().slice(1);
     console.log(yourName2);
     if (yourName2) {
       let num = prompt(yourName2 + " 1 dan 7 gacha son kiriting");
@@ -33,9 +34,3 @@ function myFunction() {
     alert("Siz faqatgina ha yoki yoq buyrug`ini kiritishingiz mumkin");
   }
 }
-
-// let yourName = "sArDoR";
-// let yourName1 = yourName.toLowerCase();
-// let yourName2 = yourName1.charAt(0).toUpperCase();
-// let yourName3 = yourName2 + yourName1.slice(1);
-// console.log(yourName3);
